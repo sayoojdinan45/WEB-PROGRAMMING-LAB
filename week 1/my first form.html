@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hospital management registration form</title>
+</head>
+<body>
+<h1>Hospital management registration form</h1>
+<form>
+<p><label>First Name:<input type="text" name="First Name" placeholder="arelli"></label>	
+<label>Last Name:<input type="text" name="Last Name" placeholder="rithvik"></label></p>
+<p><label>Male<input type="radio" name="gender" required="true" value="Male"></label>
+<label>female<input type="radio" name="gender" required="true" value="female"></label>
+<label>other<input type="radio" name="gender" required="true" value="other"></label></p>
+<p><label>Email:<input type="Email" name="credentials" required="true"></label>
+<label>Password:<input type="Password" name="pvtcredentials" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></label></p>
+<label>Birthday:<select name="Month">
+	<option value="0">Month</option>
+	<option>jan</option>
+		<option>feb</option>
+	<option>mar</option>
+	<option>apr</option>
+	<option>may</option>
+	<option>jun</option>
+	<option>jul</option>
+</select>
+<select name="day">
+	<option value="0">day</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>9</option>
+
+
+</select>
+<select name="year">
+	<option value="0">year</option>
+<option>2000</option>		
+	<option>2000</option>		
+<option>2001</option>		
+<option>2002</option>		
+<option>2003</option>		
+<option>2004</option>		
+<option>2005</option>		
+<option>2006</option>		
+<option>2007</option>		
+
+
+
+
+
+</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</label>
+<p><label>I agree to the terms and conditions <input type="checkbox" name="done" required="true" value="agreed"></label></p>
+<button>login!</button>
+
+
+</form>
+</body>
+</html>

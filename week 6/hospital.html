@@ -1,0 +1,207 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SRM hospitals</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<style type="text/css">
+		.one{
+			float: left;
+		}
+		.navbar{
+           background: transparent;
+           border:none;
+           border-bottom: 1px solid gray;
+           
+		}
+		.two{
+			float: right;
+			margin-right: 100px;
+			margin-top: 50px;
+		}
+		form{
+			line-height: 30px;
+			padding-left: 15px
+		}
+		.message{
+			line-height: 60px;
+		}
+		.appcall{
+			font-family: 'Roboto', sans-serif;
+			margin-right: 20px;
+			
+
+
+		}
+		.login {
+			text-align: center;
+			margin-top: 100px;
+			display: none;
+		}
+		.signup{
+			text-align: center;
+			margin-top: 100px;
+			display: none;
+
+		}
+    #error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+
+}
+		
+
+
+		
+	</style>
+</head>
+<body>
+      <div class="container-fluid">
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="hospital.html">
+      	SRM
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Doctors</a></li>
+        <li><a href="#">Hospitals</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">products <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+               
+          </ul>
+
+
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+               
+          </ul>
+
+
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Diagnostics <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Diagnostics Test</a></li>
+            <li><a href="#">Find labratory</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Management <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="loginForm" href="#">Login</a></li>
+            <li><a class="signupForm" href="#">Sign up</a></li>
+            <li><a href="#">Entries</a></li>
+          </ul>
+        </li>
+        <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="all">
+<div class="container-fluid">
+	
+	<div class="one">
+	<h1>SRM Hospitals</h1>
+	<img src="https://hmsdesk.com/admin/assets/pressrealese/122/5e47e80f8eca9.jpg">
+</div>
+<div class="two">
+	<h3 class="appcall">Make an Appointment</h3>
+	<form>
+
+		<div><label><input type="text" name="fname" placeholder="First Name"></label></div>
+		<div><label><input type="text" name="lname" placeholder="Last Name"></label></div>
+		<div><label><input type="email" name="mail" placeholder="E-mail"></label></div>
+		<div><label><input type="text" name="mobile" placeholder="Contact No"></label></div>
+		<div><label><input type="text" name="message" class="message" placeholder="Message"></label></div>
+
+		
+	</form>
+	</div>
+</div>
+</div>
+
+
+<div id="error_message"></div>
+<form class="login" name="logform" onsubmit="return validatelogForm()" method="POST" action="reached.html">
+	<h3>Login</h3>
+<label><div><input type="email" name="email" placeholder="email"></div></label><br>
+<label><div><input type="password" name="pass" placeholder="password"></div></label><br>
+<button>Login</button>
+</form>
+
+
+<form class="signup" name="signform" method="POST"  onsubmit="return validatesignForm()" action="reached2.html">
+	<h3>Sign Up</h3>
+<div><label><input type="text" name="fname" placeholder="First Name"></label></div>
+<div><label><input type="text" name="lname" placeholder="Last Name"></label></div>
+<div><label><input type="email" name="email" placeholder="E-mail"></label></div>
+<div><label><input type="password" name="pass" placeholder="Password"></label></div>
+<div><label><input type="text" name="confp" placeholder="Confirm Password"></label></div>
+<button>Sign Up!</button>
+</form>
+
+
+
+
+<script type="text/javascript" src="loginhospital.js"></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.js"></script>
+
+</body>
+</html>

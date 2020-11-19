@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hospital.xsl"?>  
+<!--  -->
+
+<hospital> 
+	<doctors>
+		<id> 00AB1243 </id>
+		<name> Alex </name>
+		<field> Gynecologist </field>
+		<designation>Arthroscopic Surgeon</designation>
+		<cabin> A 127</cabin>
+		<languages>English, Hindi, Telugu, Malayalam</languages>
+		<contact> 8876335549 </contact>
+
+
+
+
+		<years>10</years>
+		
+ 	</doctors>
+ 	<doctors>
+		<id> 00GF7645 </id>
+		<name> John </name>
+		<field> General Physician </field>
+		<designation>Consultant Interventional Cardiologist</designation>
+		<cabin> H 405</cabin>
+		<languages>English, Hindi, Telugu</languages>
+		<contact> 9934342323 </contact>
+
+
+
+		<years>4</years>
+	</doctors>
+	<doctors>
+		<id> 00HH8989 </id>
+		<name> Michael </name>
+		<field> Neurologist </field>
+		<designation>Consultant Radiation Oncologist</designation>
+		<cabin> O 104</cabin>
+		<languages>English, Hindi, Telugu</languages>
+		<contact> 9934222444 </contact>
+
+
+		<years>18</years>
+ 	</doctors>
+ 	<doctors>
+		<id> 78NN9999 </id>
+		<name> Peter </name>
+		<field> Dentist </field>
+		<designation>Sr. Consultant Hepatologist</designation>
+		<cabin> Z 555</cabin>
+		<languages>English, Hindi</languages>
+		<contact> 7783445580 </contact>
+
+		<years>15</years>
+ 	</doctors>
+ 	<doctors>
+		<id> 09LL5523 </id>
+		<name> Zach </name>
+		<field> General surgeon </field>
+		<designation>Robotic and Transplant Surgeon</designation>
+		<cabin> J 676</cabin>
+		<languages>English, Hindi, Telugu</languages>
+		<contact> 9948487733 </contact>
+		<years>20</years>
+ 	</doctors>
+</hospital>
